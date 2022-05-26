@@ -1,0 +1,51 @@
+
+
+header {
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.103);
+}
+
+img {
+    width: 150px;
+    height: 142px;
+    margin-bottom: 1.6rem;
+    margin-top: 2.3rem;
+    border-radius: 15px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+    background: var(--bodyColor);
+    color: var(--textColor)
+}
+
+h1 {
+    font-weight: 400;
+}
+p {
+    font-weight: 600;
+}
+
+.boxContainer {
+
+    width: 70%;
+    margin-top: 8%;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.profileMenu {
+    display: flex;
+    gap: 6rem;
+}
+

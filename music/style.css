@@ -1,0 +1,97 @@
+img {
+    width: 415px;
+    height: 453px;
+    border-radius: 15px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: var(--bodyColor);
+}
+
+.boxContainer {
+    width: 60rem;
+    height: 28rem;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    
+}
+
+.detailProfile {
+    background: red;
+    width: 18.3rem;
+    height: 24.3rem;
+    border-radius: 15px;
+    background: var(--profileColor);
+    color: var(--textColor);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+}
+
+strong {
+    color: var(--musicTitle);
+    font-size: 24px;
+    font-weight: 900;
+
+    margin-bottom: 1rem;
+}
+strong:hover {
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+}
+
+p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+button {
+    width: 217px;
+    height: 82px;
+    border-radius: 15px;
+    border: none;
+    background: var(--buttonColor);
+    color: var(--textColor);
+    
+    margin-top: 3rem;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 16px;
+    transition: filter 0.3s;
+}
+
+button:hover{
+    filter: brightness(1.4);
+}
+
+.boxSlogan {
+    height: 2rem;
+}
+
+.slogan{
+    font-size: 15px;
+    margin-top: 11px;
+    color: rgba(255, 255, 255, 0.13);
+}

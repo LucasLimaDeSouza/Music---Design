@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bodyColor: #1E1C1C;
+    --textColor: #fff;
+    --profileColor: #292929;
+    --buttonColor: #4E51BD;
+    --musicTitle: #5656FF;
+    --designTitle: #FF00D1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.backToMenu{
+    text-decoration: none;
+    color: var(--textColor);
+    margin-top: 1rem;
+}
