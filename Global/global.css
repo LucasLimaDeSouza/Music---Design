@@ -23,20 +23,34 @@ body {
     margin-top: 1rem;
 }
 
-@media (max-width:600px) {
+@media (max-width:599px) {
 
     /*INDEX/////////////////////////////////////*/
     
-
     .profileMenu{
         display: flex;
         flex-direction: column;
         width: 100%;
         gap: 1rem;
     }
+
+    
     /*PAGES/////////////////////////////////////*/
 
     .profilePhoto {
         display: none;
     }
+}
+
+@media (min-width: 600px) and (max-width: 920px) {
+
+    /*PAGES/////////////////////////////////////*/
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25rem;
+        width: 100%;
+        gap: 4rem;
+    }
+    
 }
