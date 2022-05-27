@@ -1,10 +1,10 @@
-img {
+.profilePhoto {
     width: 415px;
     height: 453px;
     border-radius: 15px;
 }
 
-img:hover {
+.profilePhoto:hover {
     transform: scale(1.1);
     transition: all linear 0.2s;
 }
