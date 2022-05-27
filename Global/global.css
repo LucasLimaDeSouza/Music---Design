@@ -22,3 +22,23 @@ body {
     color: var(--textColor);
     margin-top: 1rem;
 }
+
+@media (max-width:600px) {
+
+    /*INDEX/////////////////////////////////////*/
+    body {
+        
+    }
+
+    .profileMenu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+    /*PAGES/////////////////////////////////////*/
+
+    .profilePhoto {
+        display: none;
+    }
+}
